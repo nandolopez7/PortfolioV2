@@ -72,7 +72,7 @@ export const projects = [
     repoLink: "https://github.com/nandolopez7/tickethub-front",
   },
   {
-    title: "BeautBuilder",
+    title: "BeatBuilder",
     description:
       "A website dedicated to create playlists with a modern and simple design, where React concepts, html and css where applied, using web scraping to get the songs.",
     image: "https://api.apiflash.com/v1/urltoimage?access_key=eafe3d04d93f496e984a41a58399a8c6&wait_until=page_loaded&format=webp&url=https://beatbuilder.vercel.app/",
