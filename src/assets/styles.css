@@ -163,3 +163,25 @@ body {
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
+
+/* --- Estilos para Swiper (Coverflow) --- */
+
+/* Ajusta el tamaño de cada slide para que se vea bien en el efecto 3D */
+.mySwiper .swiper-slide {
+  width: 300px; /* Ancho base del slide. Ajusta si lo necesitas más grande o pequeño */
+  opacity: 0.6; /* Difuminado base para todos los slides */
+  transition: opacity 800ms ease, transform 800ms ease;
+  padding-bottom: 50px; /* Espacio para la paginación de puntos */
+}
+
+/* El slide activo (el del centro) debe tener opacidad total */
+.mySwiper .swiper-slide-active {
+  opacity: 1 !important;
+  transform: scale(1.05); /* Ligeramente más grande */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra para destacarlo */
+}
+
+
+.swiper-pagination-bullet-active {
+    background: var(--accent-blue) !important;
+}
